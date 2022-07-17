@@ -1,0 +1,50 @@
+.globalshortcard {
+    background: white;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 1rem;
+    position: relative;
+    top: -240px;
+    left: 1150px;
+    max-width:100%;
+    border-radius: 20px; 
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 390px) {
+    
+}
+
+.showFriendsProfile {
+    margin: 1rem;
+    max-width: 300px;
+    height: 300px;
+}
+
+.showFriendsProfile h2 {
+    position: relative;
+    top: -250px;
+    left: 1200px;
+}
+
+.showFriendsProfile span {
+    color: var(--color-primary);
+} 
+
+.globalshortcardcontentinfo {
+    margin-left: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.globalshortcardcontentinfo h4 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.showFriendsProfile-profile {
+    position: relative;
+    top: -40px;
+    left: 1260px;
+}

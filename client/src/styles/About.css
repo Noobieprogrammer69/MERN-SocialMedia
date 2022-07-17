@@ -1,0 +1,123 @@
+.about {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 40px;
+}
+
+@media screen and (max-width: 390px) {
+    .about {
+        left: 25px;
+    }
+
+    .about__contents h3 {
+        position: relative;
+        left: 0px;
+        width: 10px;
+        bottom: 32px;
+    }
+
+    .about__icon {
+        margin-left: 0px;
+    }
+}
+
+.about h2 {
+    color: black;
+    padding: 15px;
+}
+
+.about__intro {
+    width: 350px;
+    height: 335px;
+    background: white;
+    border-radius: var(--border-radius);
+}
+
+.about__contents h3 {
+    position: relative;
+    left: 45px;
+    bottom: 32px;
+}
+
+/* .about__contents h4 {
+    position: relative;
+    margin: 0;
+    bottom: 60px;
+    left: 110px;
+    color: rgb(81, 81, 216);
+} */
+
+.about__contents h4 {
+    position: absolute;
+    color: rgb(81, 81, 216);
+}
+
+.about__icon {
+    margin-left: 10px;
+}
+
+.user-school {
+    position: relative;
+    top: 63px;
+    left: 130px;
+}
+
+.user-address {
+    position: relative;
+    top: 118px;
+    left: 140px;
+}
+
+.user-nickname {
+    position: relative;
+    top: 175px;
+    left: 160px;
+}
+
+.user-phone {
+    position: relative;
+    top: 230px;
+    left: 120px;
+}
+
+.user-email {
+    position: relative;
+    top: 285px;
+    left: 115px;
+}
+
+/* For the Bio */
+
+.about__bio {
+    display: inline-block;
+    background: white;
+    width: 350px;
+    height: 350px;
+    border-radius: var(--border-radius);
+}
+
+.about__bio-contents p {
+    font-size: 15px;
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-images-container {
+    background-color: rgb(255, 255, 255);
+    padding:1rem;
+    margin-top: 1rem;
+    width: 400px;
+    max-height: 400px;
+    border-radius: 20px;
+}
+
+.profilephotsshowimages{
+    width: 60px; 
+    object-fit: cover;
+    border-radius: 20px;
+    padding:.25rem;
+    margin:.25rem;
+}

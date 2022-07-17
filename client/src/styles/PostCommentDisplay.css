@@ -1,0 +1,6 @@
+.forcommentbg {
+    background: var(--color-secondary);
+    padding: 10px;
+    position: relative;
+    bottom: 18px;
+}

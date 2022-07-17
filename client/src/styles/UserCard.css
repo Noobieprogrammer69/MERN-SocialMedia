@@ -1,0 +1,43 @@
+.search-align {
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+
+.search-align h5 {
+    position: relative;
+    bottom: 30px;
+}
+
+.imga {
+    position: relative;
+    right: 50px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.userCard-messages {
+    background: var(--color-primary);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.userCard-messages-content {
+    display: flex;
+    padding: .5rem;
+}
+
+.userCard-messages-imga {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.userCard-messages-content h5 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}

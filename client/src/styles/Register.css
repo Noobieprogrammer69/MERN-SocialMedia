@@ -1,0 +1,11 @@
+.input-alert {
+    display: flex;
+    font-size: 16px;
+    position: absolute;
+    top: 74px;
+    left: 80px;
+}
+
+.input-alert small {
+    color: white;
+}

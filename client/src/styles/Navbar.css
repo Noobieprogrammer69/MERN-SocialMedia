@@ -1,0 +1,143 @@
+.container4 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.active {
+    color: black;
+}
+
+.profile-photo {
+    width: 2.7rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    background: var(--color-white);
+    padding: 0.7rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+nav .search-place {
+    display: flex;
+    background: var(--color-light);
+    border-radius: var(--border-radius);
+    padding: var(--search-padding);
+}
+
+.searches {
+    background-color: white;
+    border-radius: var(--border-radius);
+    width: 500px;
+    position: absolute;
+    top: 60px;
+}
+
+nav .container4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .search-place  input[type="text"] {
+    background: transparent;
+    width: 30vw;
+    margin-inline-start: 1rem;
+    font-size: 0.9rem;
+    color: var(--color-dark);
+}
+
+nav .search-place  input[type="text"]::placeholder {
+    color: var(--color-gray);
+}
+
+nav .create {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.closeTag {
+    position: absolute;
+    left: 750px;
+    font-size: 26px;
+    top: 17px;
+    cursor: pointer;
+}
+
+.for-mobileDevices {
+    display: flex;
+}
+
+.mobileNav {
+    display: none;
+}
+
+@media screen and (max-width: 390px) {
+    nav {
+        width: 400px;
+        background: var(--color-white);
+        padding: 1rem 0;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+    }
+
+    .log {
+        margin-left: -30px;
+    }
+    
+    nav .search-place {
+        display: flex;
+        background: var(--color-light);
+        border-radius: var(--border-radius);
+        padding: var(--search-padding);
+    }
+
+    .profile-photo {
+        margin-left: 35px;
+    }
+
+    .searches {
+       position: absolute;
+       left: -110px;
+    }
+
+    .search-place {
+        position: relative;
+        left: 20px;
+    }
+
+    .for-mobileDevices {
+        display: none;
+    }
+
+    .mobileNav {
+        display: flex;
+    }
+
+    .mobileNav-contents {
+        display: flex;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        left: 0px;
+        background: var(--color-white);
+    }
+
+    .mobileActive {
+        color: black;
+        border-bottom: 3px solid black;
+    }
+}

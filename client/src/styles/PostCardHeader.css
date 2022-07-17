@@ -1,0 +1,84 @@
+.postCard__header {
+    background: var(--color-white);
+    position: relative;
+    width: 691px;
+    min-height: 100px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.postCard__Header-content img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.profileCard__header-info h4{
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+}
+
+.profileCard__header-info small {
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+}
+
+.postSettings__icon {
+    position: relative;
+    bottom: 125px;
+    left: 650px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.postSettings__dropdown {
+    background: var(--color-primary);
+    min-width: 150px;
+    margin-top: .5rem;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 480px;
+    bottom: -0px;
+    text-align: center;
+    color: white;
+}
+
+.postSettings__dropdown p {
+    cursor: pointer;
+}
+
+.postSettings__dropdown p:hover {
+    color: hsl(252, 69%, 72%);
+}
+
+@media screen and (max-width: 390px) {
+    .postCard__header {
+        width: 387px;
+        position: relative;
+    }
+
+    .profileCard__header-info h4{
+        position: relative;
+        bottom: 80px;
+        left: 90px;
+    }
+
+    .postSettings__icon {
+        position: relative;
+        bottom: 125px;
+        left: 300px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .postSettings__dropdown {
+        position: absolute;
+        left: 140px;
+    }
+}
+

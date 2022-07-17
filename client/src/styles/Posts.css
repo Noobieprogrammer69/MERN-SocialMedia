@@ -1,0 +1,46 @@
+.postCard {
+    position: relative;
+    right: 35px;
+    top: 100px;
+}
+
+.single__postCard {
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+
+.forclassbody {
+    width: 100px;
+}
+
+.postCard {
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 10px;
+    width: 700px;
+    position: absolute;
+    left: 400px;
+}
+
+/* style={{backgroundColor:'white',padding:'1rem', marginTop:'1rem', borderRadius:'10px', boxShadow:'3px 3px 5px gray',width:'710px'}} */
+
+@media screen and (max-width: 390px) {
+    .single__postCard {
+        width: 380px;
+        position: relative;
+        left: -5px;
+        top: 600px;
+    }
+
+    .postCard {
+        position: absolute;
+        left: 0px;
+        width: 380px;
+    }
+
+    .postCards {
+        width: 325px;
+    }
+}
+

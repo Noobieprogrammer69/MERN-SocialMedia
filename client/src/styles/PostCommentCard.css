@@ -1,0 +1,105 @@
+.postCommentCard {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.postCommentCard .postCommentCarduser img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.postCommentCarduser {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postCommentCarduserinfo {
+    display: flex;
+}
+
+.postCommentCardavatarinfo {
+    padding-left: 10px;
+}
+
+.postCommentCardcommentcontent {
+    padding: 10px 5px;
+}
+
+.postCommentCardcommentcontent-likes {
+    display: flex;
+    margin-top: 10px;
+}
+
+.reply {
+    margin-left: 5px;
+}
+
+.postCommentCardcommentcontent-likes p {
+    margin-right: 5px;
+}
+
+.reply {
+    position: relative;
+    left: 550px;
+    top: 54px;
+    background: var(--color-primary);
+    font-size: .9rem;
+    padding: 8px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.reply:hover {
+    opacity: 0.8;
+}
+
+.Update__Comment {
+    background: var(--color-primary);
+    font-size: .9rem;
+    padding: 5px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.Update__Comment:hover {
+    opacity: 0.8;
+}
+
+.Cancel__Comment {
+    background: var(--color-primary);
+    font-size: .9rem;
+    padding: 5px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.Cancel__Comment:hover {
+    opacity: 0.8;
+}
+
+.for__comment-likeCount {
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+
+.for-reply__username {
+    margin-top: 11px;
+}
+
+@media screen and (max-width: 390px) {
+    .reply {
+        margin-left: -350px;
+    }
+}

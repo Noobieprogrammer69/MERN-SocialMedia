@@ -1,0 +1,23 @@
+.commentMenuitemlist {
+    position: absolute;
+    right: 20px;
+    background: var(--color-primary);
+    padding: .5rem 1rem;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.menuItemicon {
+    cursor: pointer;
+}
+
+.commentMenuitemlist h6 {
+    padding: 3px;
+    cursor: pointer;
+}
+
+.commentMenuitemlist h6:hover {
+    color: hsl(252, 69%, 72%);
+}

@@ -1,0 +1,61 @@
+.toast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 75px;
+    left: 1300px;
+    z-index: 50;
+    bottom: 0;
+    background: linear-gradient(to right, #aa4b6b, #6b6b83, hsl(188, 44%, 42%));
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    height: 70px;
+}
+
+/* .bubble-effects p {
+    animation: bubble 7s;
+} */
+
+#hideMe {
+    -moz-animation: cssAnimation 0s ease-in 5s forwards;
+   
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    
+    -o-animation: cssAnimation 0s ease-in 2s forwards;
+    
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+
+.bubble-effects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 390px) {
+    .toast {
+        position: absolute;
+        left: 100px;
+    }
+}
+
+

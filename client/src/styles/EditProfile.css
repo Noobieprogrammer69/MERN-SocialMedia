@@ -1,0 +1,74 @@
+.editProfile {
+    position: relative;
+    left: 300px;
+    bottom: 300px;
+    z-index: 9;
+}
+
+@media screen and (max-width: 390px) {
+    .editProfile {
+        position: relative;
+        left: -200px;
+    }
+
+    .editProfile__container {
+      position: relative;
+      left: 220px;
+    }
+}
+
+.editProfile__container {
+    background: var(--color-secondary);
+    width: 350px;
+    height: 650px;
+    border-radius: var(--border-radius);
+}
+
+.editProfile__icon {
+    position: absolute;
+    left: 320px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.editProfile__contents h2 {
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+
+.editProfile__edit input {
+    position: relative;
+    top: 90px;
+    background: var(--color-gray);
+    margin: 10px;
+    width: 90%;
+    border-radius: var(--border-radius);
+    padding: 10px;
+}
+
+.edit__button {
+    position: absolute;
+    top: 580px;
+    left: 100px;
+}
+
+.for__the-avatar {
+    position: relative;
+    left: 110px;
+    top: 70px;
+    object-fit: cover;
+}
+
+.camera__icon {
+    color: black;
+    position: absolute;
+    left: 147px;
+    top: 100px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.camera__icon:hover {
+    opacity: 1;
+} 
