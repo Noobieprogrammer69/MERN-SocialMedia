@@ -33,16 +33,13 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
 });
 
-
-
 const port = process.env.PORT || 5000;
-const URI = process.env.MONGODB_URI;
 
 io.on('connection', socket => {
     socketServer(socket)
 })
 
-mongoose.connect(URI, {
+mongoose.connect("mongodb+srv://jover:jover123@cluster0.al7lu.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }, (err) => {
@@ -50,9 +47,9 @@ mongoose.connect(URI, {
     console.log('Mongodb is connected');
 });
 
-app.get("/", (req, res) => {
-    res.status(500).send("Hi");
-});
+// app.get("/", (req, res) => {
+//     res.status(500).send("Hi");
+// });
 
 http.listen(port, () => {
     console.log(`app is running on ${port}`);
