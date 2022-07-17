@@ -6,6 +6,7 @@
     "node": "14.x"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
